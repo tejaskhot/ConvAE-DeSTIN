@@ -1,0 +1,407 @@
+profloo@profloo-X8SAX:~/Documents/telaugesa/scripts$ python convae_destin_3.py 
+Using gpu device 0: GeForce GTX 980
+[MESSAGE] The data is loaded
+[MESSAGE] The 2-layer model is built
+Training epoch 1, cost  0.111384 0.27793 0.111384 0
+                         0.111384 0.27793 0.111384 0
+Training epoch 2, cost  0.0715901 0.27793 0.111384 1
+                         0.0715901 0.27793 0.111384 1
+Training epoch 3, cost  0.0720656 0.27793 0.111384 2
+                         0.0720656 0.27793 0.111384 2
+Training epoch 4, cost  0.072211 0.27793 0.111384 3
+                         0.072211 0.27793 0.111384 3
+Training epoch 5, cost  0.0722936 0.27793 0.111384 4
+                         0.0722936 0.27793 0.111384 4
+Training epoch 6, cost  0.0723584 0.27793 0.111384 5
+                         0.0723584 0.27793 0.111384 5
+Training epoch 7, cost  0.0724021 0.27793 0.111384 6
+                         0.0724021 0.27793 0.111384 6
+Training epoch 8, cost  0.0724409 0.27793 0.111384 7
+                         0.0724409 0.27793 0.111384 7
+Training epoch 9, cost  0.0724875 0.27793 0.111384 8
+                         0.0724875 0.27793 0.111384 8
+Training epoch 10, cost  0.0725108 0.27793 0.111384 9
+                         0.0725108 0.27793 0.111384 9
+Training epoch 11, cost  0.0725374 0.27793 0.111384 10
+                         0.0725374 0.27793 0.111384 10
+Training epoch 12, cost  0.0725585 0.27793 0.111384 11
+                         0.0725585 0.27793 0.111384 11
+Training epoch 13, cost  0.0725751 0.27793 0.111384 12
+                         0.0725751 0.27793 0.111384 12
+Training epoch 14, cost  0.0725892 0.27793 0.111384 13
+                         0.0725892 0.27793 0.111384 13
+Training epoch 15, cost  0.0726005 0.27793 0.111384 14
+                         0.0726005 0.27793 0.111384 14
+Training epoch 16, cost  0.0726061 0.27793 0.111384 15
+                         0.0726061 0.27793 0.111384 15
+Training epoch 17, cost  0.0726162 0.27793 0.111384 16
+                         0.0726162 0.27793 0.111384 16
+Training epoch 18, cost  0.0726194 0.27793 0.111384 17
+                         0.0726194 0.27793 0.111384 17
+Training epoch 19, cost  0.072627 0.27793 0.111384 18
+                         0.072627 0.27793 0.111384 18
+Training epoch 20, cost  0.0726343 0.27793 0.111384 19
+                         0.0726343 0.27793 0.111384 19
+Training epoch 21, cost  0.0726325 0.27793 0.111384 20
+                         0.0726325 0.27793 0.111384 20
+Training epoch 22, cost  0.072638 0.27793 0.072638 0
+                         0.072638 0.27793 0.072638 0
+Training epoch 23, cost  0.072639 0.27793 0.072638 1
+                         0.072639 0.27793 0.072638 1
+Training epoch 24, cost  0.0726498 0.27793 0.072638 2
+                         0.0726498 0.27793 0.072638 2
+Training epoch 25, cost  0.072643 0.27793 0.072638 3
+                         0.072643 0.27793 0.072638 3
+Training epoch 26, cost  0.0726487 0.27793 0.072638 4
+                         0.0726487 0.27793 0.072638 4
+Training epoch 27, cost  0.0726483 0.27793 0.072638 5
+                         0.0726483 0.27793 0.072638 5
+Training epoch 28, cost  0.0726504 0.27793 0.072638 6
+                         0.0726504 0.27793 0.072638 6
+Training epoch 29, cost  0.0726511 0.27793 0.072638 7
+                         0.0726511 0.27793 0.072638 7
+Training epoch 30, cost  0.0726541 0.27793 0.072638 8
+                         0.0726541 0.27793 0.072638 8
+Training epoch 31, cost  0.072662 0.27793 0.072638 9
+                         0.072662 0.27793 0.072638 9
+Training epoch 32, cost  0.0726593 0.27793 0.072638 10
+                         0.0726593 0.27793 0.072638 10
+Training epoch 33, cost  0.0726569 0.27793 0.072638 11
+                         0.0726569 0.27793 0.072638 11
+Training epoch 34, cost  0.0726564 0.27793 0.072638 12
+                         0.0726564 0.27793 0.072638 12
+Training epoch 35, cost  0.0726567 0.27793 0.072638 13
+                         0.0726567 0.27793 0.072638 13
+Training epoch 36, cost  0.0726626 0.27793 0.072638 14
+                         0.0726626 0.27793 0.072638 14
+Training epoch 37, cost  0.0726611 0.27793 0.072638 15
+                         0.0726611 0.27793 0.072638 15
+Training epoch 38, cost  0.0726613 0.27793 0.072638 16
+                         0.0726613 0.27793 0.072638 16
+Training epoch 39, cost  0.0726618 0.27793 0.072638 17
+                         0.0726618 0.27793 0.072638 17
+Training epoch 40, cost  0.0726629 0.27793 0.072638 18
+                         0.0726629 0.27793 0.072638 18
+Training epoch 41, cost  0.072662 0.27793 0.072638 19
+                         0.072662 0.27793 0.072638 19
+Training epoch 42, cost  0.0726635 0.27793 0.072638 20
+                         0.0726635 0.27793 0.072638 20
+Training epoch 43, cost  0.0726667 0.291965 0.0726667 0
+                         0.0726667 0.291965 0.0726667 0
+Training epoch 44, cost  0.0728579 0.291965 0.0726667 1
+                         0.0728579 0.291965 0.0726667 1
+Training epoch 45, cost  0.0728683 0.291965 0.0726667 2
+                         0.0728683 0.291965 0.0726667 2
+Training epoch 46, cost  0.0728656 0.291965 0.0726667 3
+                         0.0728656 0.291965 0.0726667 3
+Training epoch 47, cost  0.0728582 0.291965 0.0726667 4
+                         0.0728582 0.291965 0.0726667 4
+Training epoch 48, cost  0.0728612 0.291965 0.0726667 5
+                         0.0728612 0.291965 0.0726667 5
+Training epoch 49, cost  0.0728643 0.291965 0.0726667 6
+                         0.0728643 0.291965 0.0726667 6
+Training epoch 50, cost  0.0728651 0.291965 0.0726667 7
+                         0.0728651 0.291965 0.0726667 7
+Training epoch 51, cost  0.0728674 0.291965 0.0726667 8
+                         0.0728674 0.291965 0.0726667 8
+Training epoch 52, cost  0.072867 0.291965 0.0726667 9
+                         0.072867 0.291965 0.0726667 9
+Training epoch 53, cost  0.0728652 0.291965 0.0726667 10
+                         0.0728652 0.291965 0.0726667 10
+Training epoch 54, cost  0.0728659 0.291965 0.0726667 11
+                         0.0728659 0.291965 0.0726667 11
+Training epoch 55, cost  0.0728692 0.291965 0.0726667 12
+                         0.0728692 0.291965 0.0726667 12
+Training epoch 56, cost  0.0728671 0.291965 0.0726667 13
+                         0.0728671 0.291965 0.0726667 13
+Training epoch 57, cost  0.0728658 0.291965 0.0726667 14
+                         0.0728658 0.291965 0.0726667 14
+Training epoch 58, cost  0.0728682 0.291965 0.0726667 15
+                         0.0728682 0.291965 0.0726667 15
+Training epoch 59, cost  0.0728729 0.291965 0.0726667 16
+                         0.0728729 0.291965 0.0726667 16
+Training epoch 60, cost  0.0728665 0.291965 0.0726667 17
+                         0.0728665 0.291965 0.0726667 17
+Training epoch 61, cost  0.0728635 0.291965 0.0726667 18
+                         0.0728635 0.291965 0.0726667 18
+Training epoch 62, cost  0.0728614 0.291965 0.0726667 19
+                         0.0728614 0.291965 0.0726667 19
+Training epoch 63, cost  0.072865 0.291965 0.0726667 20
+                         0.072865 0.291965 0.0726667 20
+Training epoch 64, cost  0.072871 0.357831 0.072871 0
+                         0.072871 0.357831 0.072871 0
+Training epoch 65, cost  0.0737691 0.357831 0.072871 1
+                         0.0737691 0.357831 0.072871 1
+Training epoch 66, cost  0.0738 0.357831 0.072871 2
+                         0.0738 0.357831 0.072871 2
+Training epoch 67, cost  0.0737981 0.357831 0.072871 3
+                         0.0737981 0.357831 0.072871 3
+Training epoch 68, cost  0.0738014 0.357831 0.072871 4
+                         0.0738014 0.357831 0.072871 4
+Training epoch 69, cost  0.0738006 0.357831 0.072871 5
+                         0.0738006 0.357831 0.072871 5
+Training epoch 70, cost  0.073799 0.357831 0.072871 6
+                         0.073799 0.357831 0.072871 6
+Training epoch 71, cost  0.0737917 0.357831 0.072871 7
+                         0.0737917 0.357831 0.072871 7
+Training epoch 72, cost  0.0737954 0.357831 0.072871 8
+                         0.0737954 0.357831 0.072871 8
+Training epoch 73, cost  0.0737962 0.357831 0.072871 9
+                         0.0737962 0.357831 0.072871 9
+Training epoch 74, cost  0.0737887 0.357831 0.072871 10
+                         0.0737887 0.357831 0.072871 10
+Training epoch 75, cost  0.0737852 0.357831 0.072871 11
+                         0.0737852 0.357831 0.072871 11
+Training epoch 76, cost  0.0737866 0.357831 0.072871 12
+                         0.0737866 0.357831 0.072871 12
+Training epoch 77, cost  0.0737812 0.357831 0.072871 13
+                         0.0737812 0.357831 0.072871 13
+Training epoch 78, cost  0.0737735 0.357831 0.072871 14
+                         0.0737735 0.357831 0.072871 14
+Training epoch 79, cost  0.0737645 0.357831 0.072871 15
+                         0.0737645 0.357831 0.072871 15
+Training epoch 80, cost  0.0737602 0.357831 0.072871 16
+                         0.0737602 0.357831 0.072871 16
+Training epoch 81, cost  0.073746 0.357831 0.072871 17
+                         0.073746 0.357831 0.072871 17
+Training epoch 82, cost  0.073734 0.357831 0.072871 18
+                         0.073734 0.357831 0.072871 18
+Training epoch 83, cost  0.0737231 0.357831 0.072871 19
+                         0.0737231 0.357831 0.072871 19
+Training epoch 84, cost  0.0737077 0.357831 0.072871 20
+                         0.0737077 0.357831 0.072871 20
+Training epoch 85, cost  0.0736859 0.416522 0.0736859 0
+                         0.0736859 0.416522 0.0736859 0
+Training epoch 86, cost  0.0744181 0.416522 0.0736859 1
+                         0.0744181 0.416522 0.0736859 1
+Training epoch 87, cost  0.074282 0.416522 0.0736859 2
+                         0.074282 0.416522 0.0736859 2
+Training epoch 88, cost  0.0741458 0.416522 0.0736859 3
+                         0.0741458 0.416522 0.0736859 3
+Training epoch 89, cost  0.0740584 0.416522 0.0736859 4
+                         0.0740584 0.416522 0.0736859 4
+Training epoch 90, cost  0.0740031 0.416522 0.0736859 5
+                         0.0740031 0.416522 0.0736859 5
+Training epoch 91, cost  0.0739746 0.416522 0.0736859 6
+                         0.0739746 0.416522 0.0736859 6
+Training epoch 92, cost  0.0739549 0.416522 0.0736859 7
+                         0.0739549 0.416522 0.0736859 7
+Training epoch 93, cost  0.0739557 0.416522 0.0736859 8
+                         0.0739557 0.416522 0.0736859 8
+Training epoch 94, cost  0.0739498 0.416522 0.0736859 9
+                         0.0739498 0.416522 0.0736859 9
+Training epoch 95, cost  0.0739422 0.416522 0.0736859 10
+                         0.0739422 0.416522 0.0736859 10
+Training epoch 96, cost  0.0739384 0.416522 0.0736859 11
+                         0.0739384 0.416522 0.0736859 11
+Training epoch 97, cost  0.0739393 0.416522 0.0736859 12
+                         0.0739393 0.416522 0.0736859 12
+Training epoch 98, cost  0.0739437 0.416522 0.0736859 13
+                         0.0739437 0.416522 0.0736859 13
+Training epoch 99, cost  0.0739427 0.416522 0.0736859 14
+                         0.0739427 0.416522 0.0736859 14
+Training epoch 100, cost  0.0739412 0.416522 0.0736859 15
+                         0.0739412 0.416522 0.0736859 15
+[MESSAGE] The model is trained
+[MESSAGE] The supervised model is built
+MLP MODEL
+     epoch 1, minibatch 500/500, test error 82.660000 %
+MLP MODEL
+     epoch 2, minibatch 500/500, test error 76.260000 %
+MLP MODEL
+     epoch 3, minibatch 500/500, test error 75.310000 %
+MLP MODEL
+     epoch 4, minibatch 500/500, test error 73.380000 %
+MLP MODEL
+     epoch 5, minibatch 500/500, test error 71.210000 %
+MLP MODEL
+     epoch 6, minibatch 500/500, test error 66.120000 %
+MLP MODEL
+     epoch 7, minibatch 500/500, test error 63.960000 %
+MLP MODEL
+     epoch 8, minibatch 500/500, test error 62.560000 %
+MLP MODEL
+     epoch 9, minibatch 500/500, test error 61.390000 %
+MLP MODEL
+     epoch 10, minibatch 500/500, test error 60.800000 %
+MLP MODEL
+     epoch 11, minibatch 500/500, test error 60.100000 %
+MLP MODEL
+     epoch 12, minibatch 500/500, test error 60.260000 %
+MLP MODEL
+     epoch 13, minibatch 500/500, test error 59.660000 %
+MLP MODEL
+     epoch 14, minibatch 500/500, test error 59.650000 %
+MLP MODEL
+     epoch 15, minibatch 500/500, test error 59.010000 %
+MLP MODEL
+     epoch 16, minibatch 500/500, test error 59.280000 %
+MLP MODEL
+     epoch 17, minibatch 500/500, test error 57.490000 %
+MLP MODEL
+     epoch 18, minibatch 500/500, test error 57.160000 %
+MLP MODEL
+     epoch 19, minibatch 500/500, test error 56.490000 %
+MLP MODEL
+     epoch 20, minibatch 500/500, test error 56.030000 %
+MLP MODEL
+     epoch 21, minibatch 500/500, test error 55.820000 %
+MLP MODEL
+     epoch 22, minibatch 500/500, test error 54.210000 %
+MLP MODEL
+     epoch 23, minibatch 500/500, test error 52.740000 %
+MLP MODEL
+     epoch 24, minibatch 500/500, test error 51.310000 %
+MLP MODEL
+     epoch 25, minibatch 500/500, test error 49.930000 %
+MLP MODEL
+     epoch 26, minibatch 500/500, test error 49.630000 %
+MLP MODEL
+     epoch 27, minibatch 500/500, test error 47.930000 %
+MLP MODEL
+     epoch 28, minibatch 500/500, test error 47.300000 %
+MLP MODEL
+     epoch 29, minibatch 500/500, test error 45.780000 %
+MLP MODEL
+     epoch 30, minibatch 500/500, test error 45.360000 %
+MLP MODEL
+     epoch 31, minibatch 500/500, test error 44.610000 %
+MLP MODEL
+     epoch 32, minibatch 500/500, test error 44.740000 %
+MLP MODEL
+     epoch 33, minibatch 500/500, test error 43.350000 %
+MLP MODEL
+     epoch 34, minibatch 500/500, test error 43.110000 %
+MLP MODEL
+     epoch 35, minibatch 500/500, test error 43.330000 %
+MLP MODEL
+     epoch 36, minibatch 500/500, test error 42.810000 %
+MLP MODEL
+     epoch 37, minibatch 500/500, test error 42.870000 %
+MLP MODEL
+     epoch 38, minibatch 500/500, test error 42.490000 %
+MLP MODEL
+     epoch 39, minibatch 500/500, test error 42.580000 %
+MLP MODEL
+     epoch 40, minibatch 500/500, test error 42.500000 %
+MLP MODEL
+     epoch 41, minibatch 500/500, test error 42.650000 %
+MLP MODEL
+     epoch 42, minibatch 500/500, test error 42.500000 %
+MLP MODEL
+     epoch 43, minibatch 500/500, test error 42.680000 %
+MLP MODEL
+     epoch 44, minibatch 500/500, test error 42.730000 %
+MLP MODEL
+     epoch 45, minibatch 500/500, test error 42.310000 %
+MLP MODEL
+     epoch 46, minibatch 500/500, test error 42.450000 %
+MLP MODEL
+     epoch 47, minibatch 500/500, test error 41.980000 %
+MLP MODEL
+     epoch 48, minibatch 500/500, test error 42.650000 %
+MLP MODEL
+     epoch 49, minibatch 500/500, test error 42.720000 %
+MLP MODEL
+     epoch 50, minibatch 500/500, test error 42.640000 %
+MLP MODEL
+     epoch 51, minibatch 500/500, test error 42.290000 %
+MLP MODEL
+     epoch 52, minibatch 500/500, test error 42.270000 %
+MLP MODEL
+     epoch 53, minibatch 500/500, test error 43.450000 %
+MLP MODEL
+     epoch 54, minibatch 500/500, test error 43.270000 %
+MLP MODEL
+     epoch 55, minibatch 500/500, test error 42.950000 %
+MLP MODEL
+     epoch 56, minibatch 500/500, test error 41.520000 %
+MLP MODEL
+     epoch 57, minibatch 500/500, test error 44.400000 %
+MLP MODEL
+     epoch 58, minibatch 500/500, test error 41.750000 %
+MLP MODEL
+     epoch 59, minibatch 500/500, test error 43.690000 %
+MLP MODEL
+     epoch 60, minibatch 500/500, test error 41.210000 %
+MLP MODEL
+     epoch 61, minibatch 500/500, test error 42.740000 %
+MLP MODEL
+     epoch 62, minibatch 500/500, test error 41.670000 %
+MLP MODEL
+     epoch 63, minibatch 500/500, test error 41.870000 %
+MLP MODEL
+     epoch 64, minibatch 500/500, test error 41.470000 %
+MLP MODEL
+     epoch 65, minibatch 500/500, test error 41.990000 %
+MLP MODEL
+     epoch 66, minibatch 500/500, test error 42.220000 %
+MLP MODEL
+     epoch 67, minibatch 500/500, test error 41.360000 %
+MLP MODEL
+     epoch 68, minibatch 500/500, test error 41.160000 %
+MLP MODEL
+     epoch 69, minibatch 500/500, test error 40.910000 %
+MLP MODEL
+     epoch 70, minibatch 500/500, test error 41.350000 %
+MLP MODEL
+     epoch 71, minibatch 500/500, test error 41.060000 %
+MLP MODEL
+     epoch 72, minibatch 500/500, test error 40.820000 %
+MLP MODEL
+     epoch 73, minibatch 500/500, test error 40.960000 %
+MLP MODEL
+     epoch 74, minibatch 500/500, test error 41.600000 %
+MLP MODEL
+     epoch 75, minibatch 500/500, test error 41.170000 %
+MLP MODEL
+     epoch 76, minibatch 500/500, test error 41.390000 %
+MLP MODEL
+     epoch 77, minibatch 500/500, test error 41.450000 %
+MLP MODEL
+     epoch 78, minibatch 500/500, test error 42.050000 %
+MLP MODEL
+     epoch 79, minibatch 500/500, test error 41.900000 %
+MLP MODEL
+     epoch 80, minibatch 500/500, test error 41.510000 %
+MLP MODEL
+     epoch 81, minibatch 500/500, test error 41.060000 %
+MLP MODEL
+     epoch 82, minibatch 500/500, test error 41.520000 %
+MLP MODEL
+     epoch 83, minibatch 500/500, test error 41.000000 %
+MLP MODEL
+     epoch 84, minibatch 500/500, test error 40.970000 %
+MLP MODEL
+     epoch 85, minibatch 500/500, test error 41.620000 %
+MLP MODEL
+     epoch 86, minibatch 500/500, test error 41.600000 %
+MLP MODEL
+     epoch 87, minibatch 500/500, test error 41.250000 %
+MLP MODEL
+     epoch 88, minibatch 500/500, test error 41.400000 %
+MLP MODEL
+     epoch 89, minibatch 500/500, test error 41.040000 %
+MLP MODEL
+     epoch 90, minibatch 500/500, test error 41.300000 %
+MLP MODEL
+     epoch 91, minibatch 500/500, test error 40.970000 %
+MLP MODEL
+     epoch 92, minibatch 500/500, test error 40.640000 %
+MLP MODEL
+     epoch 93, minibatch 500/500, test error 41.600000 %
+MLP MODEL
+     epoch 94, minibatch 500/500, test error 40.810000 %
+MLP MODEL
+     epoch 95, minibatch 500/500, test error 40.990000 %
+MLP MODEL
+     epoch 96, minibatch 500/500, test error 40.600000 %
+MLP MODEL
+     epoch 97, minibatch 500/500, test error 41.400000 %
+MLP MODEL
+     epoch 98, minibatch 500/500, test error 41.320000 %
+MLP MODEL
+     epoch 99, minibatch 500/500, test error 42.330000 %
+MLP MODEL
+     epoch 100, minibatch 500/500, test error 41.050000 %
+
