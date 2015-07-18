@@ -278,7 +278,21 @@ class MaxPooling(object):
                                                                   st=self.step));
         
 class MaxPoolingSameSize(object):
-    """Same size Max-pooling layer"""
+    """
+    Same size Max-pooling layer
+
+    Takes as input a 4-D tensor. It sets all non maximum values
+    of non-overlapping patches of size (patch_size[0],patch_size[1]) to zero,
+    keeping only the maximum values. The output has the same dimensions as
+    the input.
+    
+    :type input: 4-D theano tensor of input images.
+    :param input: input images. Max pooling will be done over the 2 last
+        dimensions.
+    :type patch_size: tuple of length 2
+    :param patch_size: size of the patch (patch height, patch width).
+        (2,2) will retain only one non-zero value per patch of 4 values.
+    """
     
     def __init__(self, pool_size):
         """Init a max-pooling same size layer
