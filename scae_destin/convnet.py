@@ -82,8 +82,8 @@ class ConvNetBase(object):
         self.filters = theano.shared(np.asarray(np.random.uniform(low=-filter_bound,
                                                                   high=filter_bound,
                                                                   size=filter_shape),
-                                                dtype='float32'),
-                                     borrow=True);
+                                                                  dtype='float32'),
+                                                                  borrow=True);
         
         if self.use_bias==True:
             self.bias=util.init_weights("bias", self.num_filters, weight_type=weight_type);
@@ -197,6 +197,24 @@ class ReLUConvLayer(ConvNetBase):
         
     def apply(self, X):
         return nnfuns.relu(self.apply_lin(X));
+
+class LCNLayer(ReLUConvLayer):
+    """returns LCN processed output"""
+    def __init__(self, *args, **kwargs):
+        super(ReLUConvLayer, self).__init__(**kwargs)
+
+    def apply(self, X):
+        X_conv = self.apply_lin(X)                          #full convolution
+        mid = int(np.floor(self.filter_size/2.))            #middle value
+        X_centered = X - X_conv[:,:,mid:-mid, mid:-mid]     #same shape as X
+        X_sq = self.apply_lin(X_centered ** 2)
+        denom = T.sqrt(X_sq[:,:,mid:-mid, mid:-mid])
+        per_img_mean = denom.mean(axis = [2,3])
+        divisor = T.largest(per_img_mean.dimshuffle(0,1, 'x', 'x'), denom)
+        new_X = X_centered / T.maximum(1., divisor)         #same format as input
+        return new_X
+
+
     
 ####################################
 # Pooling Layer
