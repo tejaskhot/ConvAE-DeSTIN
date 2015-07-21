@@ -204,9 +204,6 @@ class LCNLayer(ReLUConvLayer):
         super(ReLUConvLayer, self).__init__(**kwargs)
 
     def apply(self, X):
-        filter_shape=(self.num_filters, self.num_channels)+(self.filter_size)
-        self.filters = self.gaussian_filter(self.filter_size).reshape(filter_shape)
-
         X_conv = nnfuns.relu(self.apply_lin(X))             #full convolution
 
         #for each pixel remove mean of (filter_size[0]xfilter_size[1]) neighbourhood
@@ -220,22 +217,6 @@ class LCNLayer(ReLUConvLayer):
         divisor = T.largest(per_img_mean.dimshuffle(0,1, 'x', 'x'), denom)
         new_X = X_centered / T.maximum(1., divisor)         #same format as input
         return new_X
-
-    def gaussian_filter(kernel_shape):
-        x = np.zeros(kernel_shape, dtype='float32')
-     
-        def gauss(x, y, sigma=2.0):
-            Z = 2 * np.pi * sigma ** 2
-            return  1. / Z * np.exp(-(x ** 2 + y ** 2) / (2. * sigma ** 2))
-     
-        mid = np.floor(kernel_shape[0] / 2.)
-        for i in xrange(0, kernel_shape[0]):
-            for j in xrange(0, kernel_shape[0]):
-                x[i, j] = gauss(i - mid, j - mid)
-     
-        return x / np.sum(x)
-
-
     
 ####################################
 # Pooling Layer
