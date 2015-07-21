@@ -204,10 +204,10 @@ class LCNLayer(ReLUConvLayer):
         super(ReLUConvLayer, self).__init__(**kwargs)
 
     def apply(self, X):
-        X_conv = self.apply_lin(X)                          #full convolution
-        mid = int(np.floor(self.filter_size/2.))            #middle value
+        X_conv = nnfuns.relu(self.apply_lin(X))             #full convolution
+        mid = int(np.floor(self.filter_size[0]/2.))         #middle value
         X_centered = X - X_conv[:,:,mid:-mid, mid:-mid]     #same shape as X
-        X_sq = self.apply_lin(X_centered ** 2)
+        X_sq = nnfuns.relu(self.apply_lin(X_centered ** 2))
         denom = T.sqrt(X_sq[:,:,mid:-mid, mid:-mid])
         per_img_mean = denom.mean(axis = [2,3])
         divisor = T.largest(per_img_mean.dimshuffle(0,1, 'x', 'x'), denom)
