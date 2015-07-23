@@ -383,7 +383,7 @@ filters.append(model_sup.layers[8].filters.get_value(borrow=True))
  
 # filters=model_1.layers[0].filters.get_value(borrow=True);
 
-pickle.dump(test_record, open("cifar_processed_128filters.pkl", "w"))
+pickle.dump(test_record, open("convae_destin_7.pkl", "w"))
  
 for i in xrange(128):
   for j in xrange(5):
