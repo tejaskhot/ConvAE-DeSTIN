@@ -31,7 +31,7 @@ from scae_destin.cost import categorical_cross_entropy_cost
 from scae_destin.cost import L2_regularization
 
 start_time=time.time()
-n_epochs=200;
+n_epochs=100;
 batch_size=100;
 nkerns=64;
 
@@ -239,6 +239,7 @@ max_iter={0:0,
           3:0,
           4:0}
 
+n_epochs=200
 epoch = 0
 while (epoch < n_epochs):
     epoch = epoch + 1
