@@ -1,10 +1,12 @@
 """Stacked fixed noise dConvAE test"""
 
 """
-Using GCN with ZCA whitened data 
-Nesterov momentum with constant value=0.9
-Decreading noise levels initialized within range (0.5,0.9)
-and then decreased 
++ Using GCN with ZCA whitened data 
++ Nesterov momentum with constant value=0.9
++ Decreading noise levels initialized within range (0.5,0.9)
+  and then decreased
++ variable learning rate
+
 """
 import sys
 sys.path.append("..")
@@ -243,6 +245,24 @@ n_epochs=200
 epoch = 0
 while (epoch < n_epochs):
     epoch = epoch + 1
+    if epoch == 50:
+        updates_4=gd_updates(cost=cost_4, params=model_4.params, method="sgd", learning_rate=0.001, momentum=0.9, nesterov=True)
+        updates_3=gd_updates(cost=cost_3, params=model_3.params, method="sgd", learning_rate=0.001, momentum=0.9, nesterov=True)
+        updates_2=gd_updates(cost=cost_2, params=model_2.params, method="sgd", learning_rate=0.001, momentum=0.9, nesterov=True)
+        updates_1=gd_updates(cost=cost_1, params=model_1.params, method="sgd", learning_rate=0.001, momentum=0.9, nesterov=True)
+        updates_0=gd_updates(cost=cost_0, params=model_0.params, method="sgd", learning_rate=0.001, momentum=0.9, nesterov=True)
+    if epoch == 100:
+        updates_4=gd_updates(cost=cost_4, params=model_4.params, method="sgd", learning_rate=0.0001, momentum=0.9, nesterov=True)
+        updates_3=gd_updates(cost=cost_3, params=model_3.params, method="sgd", learning_rate=0.0001, momentum=0.9, nesterov=True)
+        updates_2=gd_updates(cost=cost_2, params=model_2.params, method="sgd", learning_rate=0.0001, momentum=0.9, nesterov=True)
+        updates_1=gd_updates(cost=cost_1, params=model_1.params, method="sgd", learning_rate=0.0001, momentum=0.9, nesterov=True)
+        updates_0=gd_updates(cost=cost_0, params=model_0.params, method="sgd", learning_rate=0.0001, momentum=0.9, nesterov=True)
+    if epoch == 150:
+        updates_4=gd_updates(cost=cost_4, params=model_4.params, method="sgd", learning_rate=0.0001, momentum=0.9, nesterov=True)
+        updates_3=gd_updates(cost=cost_3, params=model_3.params, method="sgd", learning_rate=0.0001, momentum=0.9, nesterov=True)
+        updates_2=gd_updates(cost=cost_2, params=model_2.params, method="sgd", learning_rate=0.0001, momentum=0.9, nesterov=True)
+        updates_1=gd_updates(cost=cost_1, params=model_1.params, method="sgd", learning_rate=0.0001, momentum=0.9, nesterov=True)
+        updates_0=gd_updates(cost=cost_0, params=model_0.params, method="sgd", learning_rate=0.0001, momentum=0.9, nesterov=True)
     c_0 = c_1 = c_2 = c_3 = c_4 = []
     for batch_index in xrange(n_train_batches):
       for rep in xrange(8):
