@@ -243,7 +243,9 @@ max_iter={0:0,
 
 n_epochs=200
 epoch = 0
+
 while (epoch < n_epochs):
+    epoch_time_start = time.time()
     epoch = epoch + 1
     if epoch == 50:
         updates_4=gd_updates(cost=cost_4, params=model_4.params, method="sgd", learning_rate=0.001, momentum=0.9, nesterov=True)
@@ -338,7 +340,7 @@ while (epoch < n_epochs):
     print '                        ', np.mean(c_2), str(corr_best[2][0]), min_cost[2], max_iter[2]
     print '                        ', np.mean(c_3), str(corr_best[3][0]), min_cost[3], max_iter[3]
     print '                        ', np.mean(c_4), str(corr_best[4][0]), min_cost[4], max_iter[4]
-    
+    print '[TIME TAKEN ]          :', (time.time() - epoch_time_start)
 print "[MESSAGE] The model is trained"
 
 ################################## BUILD SUPERVISED MODEL #######################################
